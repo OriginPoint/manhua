@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" href="css/reset.css">	
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/styleIndex.css">
+</head>
+<body>
+	<div class="dPage">
+		<!--advertisement-->
+		<div class="adC">
+			<div class="adCon">
+			<a href="javascript:;" target="_blank" title="广告栏"><img src="images/left-right.jpg" alt="advertisement" class="adLeft"></a>
+			<a href="javascript:;" target="_blank" title="广告栏"><img src="images/left-right.jpg" alt="advertisement" class="adRight"></a>
+			</div>
+		</div>
+		<!--sroll-->
+		<header class="headerScroll">
+		<div class="scroll-line"></div>
+		</header>
+		<!--top-->
+		<div class="header">
+			<div class="container">
+				<div class="toolBar ib fr">
+					<a href="javascript:;" class="login"><img src="images/index_login_btn.png" alt=""></a>
+					<a href="javascript:;" class="register"><img src="images/index_reg_btn.png" alt=""></a>
+				</div>
+				<div class="logo ib fl">
+					<a href="javascript:;">
+						<img src="images/logo.jpg" alt="logo">
+					</a>
+				</div>
+				<div class="centerBar ib fl">
+					<span class="searchBar ib">
+						<input type="text" class="fl" value="海贼王 火影忍者 死神" maxlength="50">
+						<a href="javascript:;" id="searchBtn">
+							<img src="images/index_search_btn.png" alt="">
+						</a>
+					</span>
+					<span class="m">
+						<a href="javascript:;" class="title"  title="海贼王">海贼王</a>
+						<a href="javascript:;" class="title"  title="火影忍者">火影忍者</a>
+						<a href="javascript:;" class="title"  title="死神">死神</a>
+						<a href="javascript:;" class="title"  title="妖精的尾巴">妖精的尾巴</a>
+						<a href="javascript:;" class="title"  title="Re:从零开始的异世界生活">Re:从零开始的异世界生活</a>
+						<a href="javascript:;" class="title"  title="再造空间">再造空间</a>
+						<a href="javascript:;" class="title"  title="我和天师有个约会">我和天师有个约会</a>
+						<a href="javascript:;" class="title"  title="测试">测试</a>
+					</span>
+				</div>
+			</div>
+		</div>
+		<!--nav-->
+		<div class="navBar">
+			<ul class="container">
+				<li><a href="javascript:void(0);" class="item ib active">首页</a></li>
+				<li><a href="today.html" target="_top" class="item ib">今日漫画</a></li>
+				<li><a href="javascript:void(0);" class="item ib">最新章节</a></li>
+				<li><a href="javascript:void(0);" class="item ib">连载漫画</a></li>
+				<li><a href="javascript:void(0);" class="item ib">完结漫画</a></li>
+				<li><a href="javascript:void(0);" class="item ib">港漫</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="dPage" style="padding-top: 1px">
+		<!--display column-->
+		<div class="bannerBar">
+			<div class="container">
+				<div class="b-1 bannerForm">
+					<ul>
+						<li><a href="javascript:;" title="海贼王"><img src="images/nry.jpg" alt="海贼王"></a></li>
+						<li><a href="javascript:;" title="火影忍者"><img src="images/sszt.jpg" alt="火影忍者"></a></li>
+						<li><a href="javascript:;" title="灵能百分百"><img src="images/yjfh.jpg" alt="灵能百分百"></a></li>
+						<li><a href="javascript:;" title="Re:从零开始的异世界"><img src="images/yyzjb.jpg" alt="Re:从零开始的异世界"></a></li>
+					</ul>
+					<div class="heart">
+						<span onclick="bannerClick(0)" class="ib active" title="海贼王"></span>
+						<span onclick="bannerClick(1)" class="ib" title="火影忍者"></span>
+						<span onclick="bannerClick(2)" class="ib" title="灵能百分百"></span>
+						<span onclick="bannerClick(3)" class="ib" title="Re:从零开始的异世界"></span>
+					</div>
+				</div>
+				<div class="b-2"><a href="javascript:;" title="Bloody Girl"><img src="images/white.jpg" alt="Bloody Girl"></a></div>
+				<div class="b-2"><a href="javascript:;" title="Bloody Girl"><img src="images/white.jpg" alt="Bloody Girl"></a></div>
+				<div class="b-2"><a href="javascript:;" title="Bloody Girl"><img src="images/white.jpg" alt="Bloody Girl"></a></div>
+				<div class="b-2"><a href="javascript:;" title="Bloody Girl"><img src="images/white.jpg" alt="Bloody Girl"></a></div>
+			</div>
+		</div>
+		<!--classify-->
+		<div class="container">
+			<ul class="classBar">
+				<li><a href="javascript:;">热门连载</a></li>
+				<li><a href="javascript:;">少年热血</a></li>
+				<li><a href="javascript:;">少女爱情</a></li>
+				<li><a href="javascript:;">武侠格斗</a></li>
+				<li><a href="javascript:;">科幻魔幻</a></li>
+				<li><a href="javascript:;">竞技体育</a></li>
+				<li><a href="javascript:;">爆笑喜剧</a></li>
+				<li><a href="javascript:;">侦探推理</a></li>
+				<li><a href="javascript:;">其它漫画</a></li>
+				<li><a href="javascript:;">东方同人</a></li>
+				<li><a href="javascript:;">港台</a></li>
+				<li><a href="javascript:;">日韩</a></li>
+				<li><a href="javascript:;">大陆</a></li>
+				<li><a href="javascript:;">欧美</a></li>
+			</ul>
+		</div>
+		<!--content-->
+		<div class="content">
+			<!--原创精品-->
+			<div class="container">
+				<!--left col-->
+				<div class="centerBar nobottom">
+					<div class="top">
+						<a href="javascript:;" class="fr more">查看更多</a>
+						<img class="logo" src="images/index_title_logo_2.png" alt="xxxx">
+						<span>原创精品</span>
+					</div>
+					<div class="list list-two">
+						<ul>
+							<!--JS来添加/拼接节点-->
+						</ul>
+					</div>
+				</div>
+				<!--right col-->
+				<div class="sideBar nobottom">
+					<div class="top">
+					<span class="fr select">
+						<span>
+							<a href="javascript:void(0);" class="bt active">周榜</a>
+							<a href="javascript:void(0);" class="bt">月榜</a>
+							<a href="javascript:void(0);" class="bt">总榜</a>
+						</span>
+					</span>
+					<img class="logo" src="images/index_title_logo_1.png" alt="xxxx">
+					<span class="t">原创漫画榜</span>
+					</div>
+					<div class="list list_1">
+						<div class="one">
+							<a href="javascript:;" title="食戟之灵">
+								<img class="cover" src="images/sjzl.jpg" alt="食戟之灵">
+							</a>
+							<img src="images/index_top_one.png" alt="xxxxX" class="tip">
+							<div class="info">
+								<p class="title">
+									<a href="javascript:;" title="食戟之灵">食戟之灵</a>
+								</p>
+								<p class="subtitle">作者：附田佑斗 佐伯俊</p>
+								<p class="subtitle">类型：少年热血</p>
+							</div>
+							<div class="border"></div>
+						</div>
+						<ul>
+							<li>
+								<a href="javascript:;" title="一拳超人">
+									<div class="tip tip_2">2</div>
+									<div class="title">一拳超人</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="火影忍者">
+									<div class="tip tip_3">3</div>
+									<div class="title">火影忍者</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="死神">
+									<div class="tip tip_other">4</div>
+									<div class="title">死神</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="xxxx">
+									<div class="tip tip_other">5</div>
+									<div class="title">海贼王</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="xxxx">
+									<div class="tip tip_other">6</div>
+									<div class="title">灵能百分百</div>
+								</a>
+							</li>
+							
+						</ul>
+					</div>
+					<div class="list list_2 hidden">
+						<div class="one">
+							<a href="javascript:;" title="一拳超人">
+								<img class="cover" src="images/sjzl.jpg" alt="一拳超人">
+							</a>
+							<img src="images/index_top_one.png" alt="xxxxX" class="tip">
+							<div class="info">
+								<p class="title">
+									<a href="javascript:;" title="一拳超人">一拳超人</a>
+								</p>
+								<p class="subtitle">作者：One</p>
+								<p class="subtitle">类型：少年热血</p>
+							</div>
+							<div class="border"></div>
+						</div>
+						<ul>
+							<li>
+								<a href="javascript:;" title="食戟之灵">
+									<div class="tip tip_2">2</div>
+									<div class="title">食戟之灵</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="火影忍者">
+									<div class="tip tip_3">3</div>
+									<div class="title">火影忍者</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="死神">
+									<div class="tip tip_other">4</div>
+									<div class="title">死神</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="xxxx">
+									<div class="tip tip_other">5</div>
+									<div class="title">海贼王</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="xxxx">
+									<div class="tip tip_other">6</div>
+									<div class="title">灵能百分百</div>
+								</a>
+							</li>
+							
+						</ul>
+					</div>
+					<div class="list list_3 hidden">
+						<div class="one">
+							<a href="javascript:;" title="火影忍者">
+								<img class="cover" src="images/sjzl.jpg" alt="火影忍者">
+							</a>
+							<img src="images/index_top_one.png" alt="xxxxX" class="tip">
+							<div class="info">
+								<p class="title">
+									<a href="javascript:;" title="火影忍者">火影忍者</a>
+								</p>
+								<p class="subtitle">作者：岸本齐史</p>
+								<p class="subtitle">类型：少年热血</p>
+							</div>
+							<div class="border"></div>
+						</div>
+						<ul>
+							<li>
+								<a href="javascript:;" title="一拳超人">
+									<div class="tip tip_2">2</div>
+									<div class="title">一拳超人</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="食戟之灵">
+									<div class="tip tip_3">3</div>
+									<div class="title">食戟之灵</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="死神">
+									<div class="tip tip_other">4</div>
+									<div class="title">死神</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="xxxx">
+									<div class="tip tip_other">5</div>
+									<div class="title">海贼王</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="xxxx">
+									<div class="tip tip_other">6</div>
+									<div class="title">灵能百分百</div>
+								</a>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="adCom" style="padding: 0px"></div>
+			</div>
+		</div>
+		<!--最新更新-->
+		<div class="container">
+			<div class="largeBar mt">
+				<div class="top">
+					<a href="javascript:;" class="fr more">查看更多</a>
+					<img class="logo" src="images/index_title_logo_7.png" alt="New">
+					<span class="t">最新更新</span>
+				</div>
+				<!--列表16-->
+				<div class="list list-sixteen">
+					<ul>
+						
+					</ul>
+				</div>
+				<!--列表20-->
+				<div class="clist">
+					<!--JS添加节点-->
+				</div>
+			</div>
+		</div>
+		<!--热门连载漫画-->
+		<div class="content">
+			<div class="container">
+				<!--左-->
+				<div class="centerBar nobottom">
+					<div class="top">
+						<a href="javascript:;" class="fr more">查看更多</a>
+						<img class="logo" src="images/index_title_logo_3.png" alt="xxxx">
+						<span>热门连载漫画</span>
+					</div>
+					<!--12-->
+					<div class="list list-two">
+						<ul>
+						<!--JS添加节点-->
+						</ul>
+					</div>
+				</div>
+				<!--右-->
+				<div class="sideBar nobottom">
+					<div class="top">
+					<span class="fr select">
+						<span>
+							<a href="javascript:void(0);" class="bt active">周榜</a>
+							<a href="javascript:void(0);" class="bt">月榜</a>
+							<a href="javascript:void(0);" class="bt">总榜</a>
+						</span>
+					</span>
+					<img class="logo" src="images/index_title_logo_1.png" alt="xxxx">
+					<span class="t">人气榜</span>
+					</div>
+					<div class="list list_1">
+						<div class="one">
+							<a href="javascript:;" title="食戟之灵">
+								<img class="cover" src="images/sjzl.jpg" alt="食戟之灵">
+							</a>
+							<img src="images/index_top_one.png" alt="xxxxX" class="tip">
+							<div class="info">
+								<p class="title">
+									<a href="javascript:;" title="食戟之灵">食戟之灵</a>
+								</p>
+								<p class="subtitle">作者：附田佑斗 佐伯俊</p>
+								<p class="subtitle">类型：少年热血</p>
+							</div>
+							<div class="border"></div>
+						</div>
+						<ul>
+							<li>
+								<a href="javascript:;" title="一拳超人">
+									<div class="tip tip_2">2</div>
+									<div class="title">一拳超人</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="火影忍者">
+									<div class="tip tip_3">3</div>
+									<div class="title">火影忍者</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="死神">
+									<div class="tip tip_other">4</div>
+									<div class="title">死神</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="xxxx">
+									<div class="tip tip_other">5</div>
+									<div class="title">海贼王</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="xxxx">
+									<div class="tip tip_other">6</div>
+									<div class="title">灵能百分百</div>
+								</a>
+							</li>
+							
+						</ul>
+					</div>
+					<div class="list list_2 hidden">
+						<div class="one">
+							<a href="javascript:;" title="一拳超人">
+								<img class="cover" src="images/sjzl.jpg" alt="一拳超人">
+							</a>
+							<img src="images/index_top_one.png" alt="xxxxX" class="tip">
+							<div class="info">
+								<p class="title">
+									<a href="javascript:;" title="一拳超人">一拳超人</a>
+								</p>
+								<p class="subtitle">作者：One</p>
+								<p class="subtitle">类型：少年热血</p>
+							</div>
+							<div class="border"></div>
+						</div>
+						<ul>
+							<li>
+								<a href="javascript:;" title="食戟之灵">
+									<div class="tip tip_2">2</div>
+									<div class="title">食戟之灵</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="火影忍者">
+									<div class="tip tip_3">3</div>
+									<div class="title">火影忍者</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="死神">
+									<div class="tip tip_other">4</div>
+									<div class="title">死神</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="xxxx">
+									<div class="tip tip_other">5</div>
+									<div class="title">海贼王</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="xxxx">
+									<div class="tip tip_other">6</div>
+									<div class="title">灵能百分百</div>
+								</a>
+							</li>
+							
+						</ul>
+					</div>
+					<div class="list list_3 hidden">
+						<div class="one">
+							<a href="javascript:;" title="火影忍者">
+								<img class="cover" src="images/sjzl.jpg" alt="火影忍者">
+							</a>
+							<img src="images/index_top_one.png" alt="xxxxX" class="tip">
+							<div class="info">
+								<p class="title">
+									<a href="javascript:;" title="火影忍者">火影忍者</a>
+								</p>
+								<p class="subtitle">作者：岸本齐史</p>
+								<p class="subtitle">类型：少年热血</p>
+							</div>
+							<div class="border"></div>
+						</div>
+						<ul>
+							<li>
+								<a href="javascript:;" title="一拳超人">
+									<div class="tip tip_2">2</div>
+									<div class="title">一拳超人</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="食戟之灵">
+									<div class="tip tip_3">3</div>
+									<div class="title">食戟之灵</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="死神">
+									<div class="tip tip_other">4</div>
+									<div class="title">死神</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="xxxx">
+									<div class="tip tip_other">5</div>
+									<div class="title">海贼王</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="xxxx">
+									<div class="tip tip_other">6</div>
+									<div class="title">灵能百分百</div>
+								</a>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--最新上架-->
+		<div class="content">
+			<div class="container">
+				<!--左-->
+				<div class="centerBar">
+					<div class="top">
+						<a href="javascript:;" class="fr more">查看更多</a>
+						<!--<a href="javascript:;" class="fr more">查看更多</a>
+						<a href="javascript:;" class="fr more">查看更多</a>
+						<a href="javascript:;" class="fr more">查看更多</a>-->
+						<div class="btnGroup">
+							<a href="javascript:;" class="bt active">最新上架漫画</a>
+							<a href="javascript:;" class="bt">漫友推荐漫画</a>
+							<a href="javascript:;" class="bt">经典完结漫画</a>
+							<a href="javascript:;" class="bt">全彩香港漫画</a>
+						</div>
+					</div>
+					<div class="list list-new">
+						<ul>
+							<!--JS添加节点-->
+						</ul>
+					</div>
+				</div>
+				<!--右-->
+				<div class="sideBar nobottom">
+					<div class="top">
+					<span class="fr select">
+						<span>
+							<a href="javascript:;" class="bt active">周榜</a>
+							<a href="javascript:;" class="bt">月榜</a>
+							<a href="javascript:;" class="bt">总榜</a>
+						</span>
+					</span>
+					<img class="logo" src="images/index_title_logo_1.png" alt="xxxx">
+					<span class="t">收藏榜</span>
+					</div>
+					<div class="list list_1">
+						<div class="one">
+							<a href="javascript:;" title="食戟之灵">
+								<img class="cover" src="images/sjzl.jpg" alt="食戟之灵">
+							</a>
+							<img src="images/index_top_one.png" alt="xxxxX" class="tip">
+							<div class="info">
+								<p class="title">
+									<a href="javascript:;" title="食戟之灵">食戟之灵</a>
+								</p>
+								<p class="subtitle">作者：附田佑斗 佐伯俊</p>
+								<p class="subtitle">类型：少年热血</p>
+							</div>
+							<div class="border"></div>
+						</div>
+						<ul>
+							<li>
+								<a href="javascript:;" title="一拳超人">
+									<div class="tip tip_2">2</div>
+									<div class="title">一拳超人</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="火影忍者">
+									<div class="tip tip_3">3</div>
+									<div class="title">火影忍者</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="死神">
+									<div class="tip tip_other">4</div>
+									<div class="title">死神</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="xxxx">
+									<div class="tip tip_other">5</div>
+									<div class="title">海贼王</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="xxxx">
+									<div class="tip tip_other">6</div>
+									<div class="title">灵能百分百</div>
+								</a>
+							</li>
+							
+						</ul>
+					</div>
+					<div class="list list_2 hidden">
+						<div class="one">
+							<a href="javascript:;" title="一拳超人">
+								<img class="cover" src="images/sjzl.jpg" alt="一拳超人">
+							</a>
+							<img src="images/index_top_one.png" alt="xxxxX" class="tip">
+							<div class="info">
+								<p class="title">
+									<a href="javascript:;" title="一拳超人">一拳超人</a>
+								</p>
+								<p class="subtitle">作者：One</p>
+								<p class="subtitle">类型：少年热血</p>
+							</div>
+							<div class="border"></div>
+						</div>
+						<ul>
+							<li>
+								<a href="javascript:;" title="食戟之灵">
+									<div class="tip tip_2">2</div>
+									<div class="title">食戟之灵</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="火影忍者">
+									<div class="tip tip_3">3</div>
+									<div class="title">火影忍者</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="死神">
+									<div class="tip tip_other">4</div>
+									<div class="title">死神</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="xxxx">
+									<div class="tip tip_other">5</div>
+									<div class="title">海贼王</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="xxxx">
+									<div class="tip tip_other">6</div>
+									<div class="title">灵能百分百</div>
+								</a>
+							</li>
+							
+						</ul>
+					</div>
+					<div class="list list_3 hidden">
+						<div class="one">
+							<a href="javascript:;" title="火影忍者">
+								<img class="cover" src="images/sjzl.jpg" alt="火影忍者">
+							</a>
+							<img src="images/index_top_one.png" alt="xxxxX" class="tip">
+							<div class="info">
+								<p class="title">
+									<a href="javascript:;" title="火影忍者">火影忍者</a>
+								</p>
+								<p class="subtitle">作者：岸本齐史</p>
+								<p class="subtitle">类型：少年热血</p>
+							</div>
+							<div class="border"></div>
+						</div>
+						<ul>
+							<li>
+								<a href="javascript:;" title="一拳超人">
+									<div class="tip tip_2">2</div>
+									<div class="title">一拳超人</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="食戟之灵">
+									<div class="tip tip_3">3</div>
+									<div class="title">食戟之灵</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="死神">
+									<div class="tip tip_other">4</div>
+									<div class="title">死神</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="xxxx">
+									<div class="tip tip_other">5</div>
+									<div class="title">海贼王</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="xxxx">
+									<div class="tip tip_other">6</div>
+									<div class="title">灵能百分百</div>
+								</a>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--漫画列表-->
+		<div class="container">
+			<div class="listBar mt">
+				<div class="top">
+					<div class="btnGroup comics_group comics_sul">
+						<a href="javascript:;" class="bt active" title="全部漫画">全部漫画</a>
+						<a href="javascript:;" class="bt" title="漫画">少年热血</a>
+						<a href="javascript:;" class="bt" title="漫画">少女爱情</a>
+						<a href="javascript:;" class="bt" title="漫画">武侠格斗</a>
+						<a href="javascript:;" class="bt" title="漫画">科幻魔幻</a>
+						<a href="javascript:;" class="bt" title="漫画">竞技体育</a>
+						<a href="javascript:;" class="bt" title="漫画">爆笑喜剧</a>
+						<a href="javascript:;" class="bt" title="漫画">侦探推理</a>
+						<a href="javascript:;" class="bt" title="漫画">其它漫画</a>
+						<a href="javascript:;" class="bt" title="漫画">东方同人</a>
+					</div>
+					<img src="images/index_title_logo_4.png" alt="Logo" class="logo">
+					<span>漫画列表</span>
+				</div>
+				<span class="select comics_num comics_sul">
+					<a href="javascript:void(0);" data="HOT" class="bt active">HOT!</a>
+					<a href="javascript:void(0);" data="" class="bt">ALL</a>
+					<a href="javascript:void(0);" data="A" class="bt">A</a>
+					<a href="javascript:void(0);" data="B" class="bt">B</a>
+					<a href="javascript:void(0);" data="C" class="bt">C</a>
+					<a href="javascript:void(0);" data="D" class="bt">D</a>
+					<a href="javascript:void(0);" data="E" class="bt">E</a>
+					<a href="javascript:void(0);" data="F" class="bt">F</a>
+					<a href="javascript:void(0);" data="G" class="bt">G</a>
+					<a href="javascript:void(0);" data="H" class="bt">H</a>
+					<a href="javascript:void(0);" data="I" class="bt">I</a>
+					<a href="javascript:void(0);" data="J" class="bt">J</a>
+					<a href="javascript:void(0);" data="K" class="bt">K</a>
+					<a href="javascript:void(0);" data="L" class="bt">L</a>
+					<a href="javascript:void(0);" data="M" class="bt">M</a>
+					<a href="javascript:void(0);" data="N" class="bt">N</a>
+					<a href="javascript:void(0);" data="O" class="bt">O</a>
+					<a href="javascript:void(0);" data="P" class="bt">P</a>
+					<a href="javascript:void(0);" data="Q" class="bt">Q</a>
+					<a href="javascript:void(0);" data="R" class="bt">R</a>
+					<a href="javascript:void(0);" data="S" class="bt">S</a>
+					<a href="javascript:void(0);" data="T" class="bt">T</a>
+					<a href="javascript:void(0);" data="U" class="bt">U</a>
+					<a href="javascript:void(0);" data="V" class="bt">V</a>
+					<a href="javascript:void(0);" data="W" class="bt">W</a>
+					<a href="javascript:void(0);" data="X" class="bt">X</a>
+					<a href="javascript:void(0);" data="Y" class="bt">Y</a>
+					<a href="javascript:void(0);" data="Z" class="bt">Z</a>
+					<a href="javascript:void(0);" data="0-9" class="bt">0-9</a>
+				</span>
+				<div class="clist" id="comics_list">
+					<div class="item">
+						<a href="javascript:;" title="银魂" class="title">银魂</a>
+						<a href="javascript:;" title="银魂" class="c">[第xx话]</a>
+					</div>
+					<div class="item">
+						<a href="javascript:;" title="死神" class="title">死神</a>
+						<a href="javascript:;" title="死神" class="c">[第xx话]</a>
+					</div>
+					<div class="item">
+						<a href="javascript:;" title="火影忍者" class="title">火影忍者</a>
+						<a href="javascript:;" title="火影忍者" class="c">[第xx话]</a>
+					</div>
+					<div class="item">
+						<a href="javascript:;" title="家庭老师" class="title">家庭老师</a>
+						<a href="javascript:;" title="家庭老师" class="c">[第xx话]</a>
+					</div>
+					<div class="item">
+						<a href="javascript:;" title="驱魔少年" class="title">驱魔少年</a>
+						<a href="javascript:;" title="驱魔少年" class="c">[第xx话]</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--友情链接-->
+		<div class="container">
+			<div class="listBar mt">
+				<div class="top">
+					<span class="fr tip">xxxx | 123456@123.com | xxxx</span>
+					<img src="images/index_title_logo_5.png" alt="友情链接" class="logo">
+					<span>友情链接</span>
+				</div>
+				<div class="clist">
+					<div class="items">
+						<a href="javascript:;" class="title">xxxx</a>
+					</div>
+					<div class="items">
+						<a href="javascript:;" class="title">xxxx</a>
+					</div>
+					<div class="items">
+						<a href="javascript:;" class="title">xxxx</a>
+					</div>
+					<div class="items">
+						<a href="javascript:;" class="title">xxxx</a>
+					</div>
+					<div class="items">
+						<a href="javascript:;" class="title">xxxx</a>
+					</div>
+					<div class="items">
+						<a href="javascript:;" class="title">xxxx</a>
+					</div>
+					<div class="items">
+						<a href="javascript:;" class="title">xxxx</a>
+					</div>
+					<div class="items">
+						<a href="javascript:;" class="title">xxxx</a>
+					</div>
+					<div class="items">
+						<a href="javascript:;" class="title">xxxx</a>
+					</div>
+					<div class="items">
+						<a href="javascript:;" class="title">xxxx</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Hot热门推荐-->
+		<div class="container">
+			<div class="recommend">
+				<img class="logo" src="images/index_hot_logo.png" alt="">
+				<span class="t">热门推荐</span>
+				<div class="item">
+					<a href="javascript:void();" class="title">海贼王</a>
+					<a href="javascript:void();" class="c">[第xxx话]</a>
+				</div>
+				<div class="item">
+					<a href="javascript:void();" class="title">火影忍者</a>
+					<a href="javascript:void();" class="c">[第xxx话]</a>
+				</div>
+				<div class="item">
+					<a href="javascript:void();" class="title">死神</a>
+					<a href="javascript:void();" class="c">[第xxx话]</a>
+				</div>
+				<div class="item">
+					<a href="javascript:void();" class="title">妖精的尾巴</a>
+					<a href="javascript:void();" class="c">[第xxx话]</a>
+				</div>
+				<div class="item">
+					<a href="javascript:void();" class="title">Re:从零开始的异世界生活</a>
+					<a href="javascript:void();" class="c">[第xxx话]</a>
+				</div>
+
+				<div class="item">
+					<a href="javascript:void();" class="title">Bloody Girl</a>
+					<a href="javascript:void();" class="c">[第xxx话]</a>
+				</div>
+			</div>
+		</div>
+		<!--关于-->
+		<div class="infoBar">
+			<div class="item">
+				<p class="title">关于我们</p>
+				<p class="subtitle">
+					<a href="javascript:;">XXXX</a>
+				</p>
+				<p class="subtitle">
+					<a href="javascript:;">XXXX</a>
+				</p>
+				<p class="subtitle">
+					<a href="javascript:;">XXXX</a>
+				</p>
+			</div>
+			<div class="item">
+				<p class="title">联系我们</p>
+				<p class="subtitle">
+					<a href="javascript:;">XXXX</a>
+				</p>
+				<p class="subtitle">
+					<a href="javascript:;">XXXX</a>
+				</p>
+				<p class="subtitle">
+					<a href="javascript:;">XXXX</a>
+				</p>
+			</div>
+			<div class="item">
+				<p class="title">帮助中心</p>
+				<p class="subtitle">
+					<a href="javascript:;">XXXX</a>
+				</p>
+				<p class="subtitle">
+					<a href="javascript:;">XXXX</a>
+				</p>
+				<p class="subtitle">
+					<a href="javascript:;">XXXX</a>
+				</p>
+			</div>
+			<div class="item">
+				<p class="title">本站地图</p>
+				<p class="subtitle">
+					<a href="javascript:;">XXXX</a>
+				</p>
+				<p class="subtitle">
+					<a href="javascript:;">XXXX</a>
+				</p>
+				<p class="subtitle">
+					<a href="javascript:;">XXXX</a>
+				</p>
+			</div>
+			<div class="item">
+				<p class="title">版权声明</p>
+				<p class="subtitle">
+					<a href="javascript:;">XXXX</a>
+				</p>
+				<p class="subtitle">
+					<a href="javascript:;">XXXX</a>
+				</p>
+				<p class="subtitle">
+					<a href="javascript:;">XXXX</a>
+				</p>
+			</div>
+		</div>
+		<div class="footer">
+			Copyright (C) xxxx xxxx xxxx xxxx xxxx xxxx
+			<p></p>
+			<p>xxxxxxxxxx</p>
+		</div>		
+		<a id="btn" title="回到顶部" href="javascript:;" title="返回顶部"></a>
+	</div>	
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>

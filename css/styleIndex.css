@@ -1,0 +1,185 @@
+/*通用类*/
+.dPage{font-family: 'Microsoft YaHei';font-size: 0;background-color: #f2f2f2;}
+.dPage .container{width: 1200px;margin: 0 auto;overflow: hidden;position: relative;}
+.dPage .ib{display: inline-block;*display: inline;zoom: 1;}
+.dPage .fl{float: left;}
+.dPage .fr{float: right;}
+.dPage .mt{margin-top: 16px;}
+.dPage a{text-decoration: none;color: #000;}
+.dPage a:visited{color: #000;}
+.dPage .hidden{display: none;}
+/*广告栏*/
+.dPage .adC{position: absolute;width: 100%;overflow: hidden;height: 900px;}
+.dPage .adCon{position: absolute;top: 211px;left: 50%;width: 1840px;margin-left: -920px;}
+.dPage .adCon .adLeft{float: left;}
+.dPage .adCon .adRight{float: right;}
+@media screen and(min-width:500px ) {
+    .dPage .adC{
+        display: none;
+        background-color: #000;
+    }
+}
+/*顶部栏*/
+.dPage .header{
+	height: 150px;
+    background: rgba(255, 108, 104, .5);
+	background: linear-gradient(left,#FF6C68,#FE756B,#FE8B76,#FB9E7C);
+	background: -webkit-linear-gradient(left,#FF6C68,#FE756B,#FE8B76,#FB9E7C);
+	background: -moz-linear-gradient(left,#FF6C68,#FE756B,#FE8B76,#FB9E7C);
+	background: -ms-linear-gradient(left,#FF6C68,#FE756B,#FE8B76,#FB9E7C);
+    background: -o-linear-gradient(left,#FF6C68,#FE756B,#FE8B76,#FB9E7C);
+	background-position: top center;
+    min-width: 1200px;
+}
+.dPage .header .container{overflow: visible;z-index: 997;}
+.dPage .header .logo{height: 150px;width: 340px;}
+.dPage .header .logo img{margin-top: 35px;}
+.dPage .header .centerBar{height: 150px;width: 520px;}
+.dPage .header .centerBar .searchBar{border: 4px solid #dd2727;height: 40px;width: 512px;margin-top: 50px;background-color: #dd2727;}
+.dPage .header .centerBar .searchBar input{border: none;border-right: none;height: 40px;line-height: 40px;outline: none;width: 405px;padding: 0 10px;}
+.dPage .header .centerBar .m{display: block;padding-top: 6px;height: 16px;overflow: hidden;}
+.dPage .header .centerBar .m a{margin-right: 10px;font-size: 12px;color: #393939;display: block;float: left;}
+.dPage .header .centerBar .m a:hover{color: #dd2626; text-decoration: none;}
+.dPage .header .toolBar{height: 150px;}
+.dPage .header .toolBar img{margin-top: 55px;margin-left: 6px;}
+/*导航栏*/
+.dPage .navBar{height: 44px;background: #DD2727;}
+.dPage .navBar .container{padding-left: 26px;width: 1174px;}
+.dPage .navBar ul li{float: left;}
+.dPage .navBar .item{height: 44px;width: 130px;line-height: 44px;text-align: center;color: #fff;font-size: 16px;margin-left: -26px;text-decoration: none;}
+.dPage .navBar .item:hover{background: #BD1E1E;}
+.dPage .navBar .active{background: #BD1E1E;}
+.dPage .navBar .btn{margin-top: 6px;}
+/*展示栏*/
+.dPage .bannerBar{margin-top: 16px;height: 380px;}
+.dPage .bannerBar .b-1{width: 852px;height: 380px;float: left;overflow: hidden;}
+.dPage .bannerBar .bannerForm{position: relative;}
+.dPage .bannerBar .bannerForm ul{position: relative;}
+.dPage .bannerBar .bannerForm ul li{display: inline-block;*display: inline;zoom: 1;}
+.dPage .bannerBar .bannerForm ul li img{width: 940px;height: 380px;}
+.dPage .bannerBar .bannerForm .heart{text-align: center;position: relative;top: -20px;}
+.dPage .bannerBar .bannerForm .heart span{width: 11px;height: 10px;background: #fff;margin: 0 5px;cursor: pointer; border-radius: 100%;}
+.dPage .bannerBar .bannerForm .heart span.active{background: #dd2727;}
+.dPage .bannerBar .b-2{width: 164px;height: 185px;margin-left: 10px;margin-bottom: 10px;float: left;overflow: hidden;}
+/*分类选项*/
+.dPage .classBar{margin-top: 16px;border: 1px solid #dadada;background-color: #fff;padding: 10px 4px;overflow: hidden;*padding: 10px 3px;}
+.dPage .classBar li{float: left;color: #393939;font-size: 14px;padding: 0 18px;border-left: 1px solid #dbd9d9;}
+.dPage .classBar li:first-child{border-left: none;}
+.dPage .classBar li a:hover{color: #dd2626;}
+/*内容栏_原创精品*/
+.dPage .content{margin-top: 16px;}
+.dPage .content .centerBar{width: 870px;border: 1px solid #dadada;background-color: #fff;float: left;border-right: none;}
+.dPage .content .centerBar .top{height: 48px;border-bottom: 1px solid #dadada;font-size: 16px;color: #393939;line-height: 48px;margin: 0 20px;margin-bottom: 3px;}
+.dPage .content .centerBar .top .logo{float:left;margin-top: 13px;margin-right: 8px;}
+.dPage .content .centerBar .top .more{font-size: 12px;color: #a6a6a6;padding-right: 16px;background-image: url(../images/index_more_logo.png);background-position: right 17px;background-repeat: no-repeat;}
+.dPage .content .centerBar .top .more:hover{color: #dd2626;}
+.dPage .content .centerBar .top .btnGroup a{height: 52px;display: block;float: left;font-size: 14px;margin-right: 30px;}
+.dPage .content .centerBar .top .btnGroup a.active{font-size: 16px;color: #dd2727;}
+.dPage .content .centerBar .list{padding: 11px 5px;overflow: hidden;height: 412px;}
+.dPage .content .centerBar .list ul{padding: 0 4px;}
+.dPage .content .centerBar .list ul li{width: 122px;margin: 10px 10px;float: left;position: relative;}
+.dPage .content .centerBar .list ul li .cover{width: 120px;height: 160px;border: 1px solid #d9d7d7;}
+.dPage .content .centerBar .list ul li .title{font-size: 14px;color: #393939;margin-top: 10px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.dPage .content .centerBar .list ul li .title:hover{color: #dd2626;}
+.dPage .content .centerBar .list ul li .subtitle{font-size: 12px;color: #fff;position: absolute;top: 136px;left: 1px;width: 110px;padding-left: 10px;height: 25px;line-height: 25px;background-color: #000;opacity: 0.7;-moz-opacity: 0.7;cursor: pointer;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.dPage .content .centerBar .list ul li .log{position: absolute;top: -1px;left: -1px;}
+.dPage .content .sideBar{width: 326px;border: 1px solid #dadada;background-color: #fff;float: left;}
+.dPage .content .sideBar .top{height: 48px;border-bottom: 1px solid #dadada;font-size: 16px;color: #393939;margin: 0 20px;}
+.dPage .content .sideBar .top .logo{float:left;margin-top: 13px;margin-right: 8px;}
+.dPage .content .sideBar .top .t{padding-top: 11px;display: inline-block;}
+.dPage .content .sideBar .top .select{font-size: 12px;padding-top: 13px;}
+.dPage .content .sideBar .top .select span{background-color: #f2f2f2;border-radius: 9px;padding: 1px 0;display: inline-block;height: 18px;}
+.dPage .content .sideBar .top .select a{color: #a6a6a6;padding: 1px 8px;}
+.dPage .content .sideBar .top .select a:hover{color: #dd2626;}
+.dPage .content .sideBar .top .select a.active{background-color: #dd2727;color: #fff;border-radius: 9px;}
+.dPage .content .sideBar .list{padding: 10px;overflow: hidden;height: 417px;}
+.dPage .content .sideBar .list .one{padding: 10px;position: relative;overflow: hidden;}
+.dPage .content .sideBar .list .one .cover{width: 95;height: 70px;float: left;}
+.dPage .content .sideBar .list .one .tip{position: absolute;top: 12px;left: 8px;}
+.dPage .content .sideBar .list .one .info{float: left;padding-left: 10px;}
+.dPage .content .sideBar .list .one .info p{line-height: 23px;}
+.dPage .content .sideBar .list .one .info .title{font-size: 14px;color: #393939;}
+.dPage .content .sideBar .list .one .info .title a:hover{color: #dd2626;}
+.dPage .content .sideBar .list .one .info .subtitle{font-size: 12px;color: #a6a6a6;}
+.dPage .content .sideBar .list .one .border{border-bottom: 1px solid #d9d9d9;float: left;width: 100%;margin-top: 12px;}
+.dPage .content .sideBar .list ul li{margin: 15px 10px;font-size: 14px;color: #393939;overflow: hidden;*margin: 13px 10px;}
+.dPage .content .sideBar .list ul li:first-child{margin-top: 5px;}
+.dPage .content .sideBar .list ul li a:hover{color: #dd2626;}
+.dPage .content .sideBar .list ul li .tip{float: left;height: 18px;width: 18px;font-size: 12px;line-height: 18px;text-align: center;}
+.dPage .content .sideBar .list ul li .tip_2{color: #fff;border: 1px solid #dc7f26;background-color: #ffb36a;}
+.dPage .content .sideBar .list ul li .tip_3{color: #fff;border: 1px solid #228ed2;background-color: #43b6ff;}
+.dPage .content .sideBar .list ul li .tip_other{color: #b2b2b2;border: 1px solid #d9d9d9;background-color: #e8e8e8;}
+.dPage .content .sideBar .list ul li .title{float: left;padding-left: 10px;cursor: pointer;}
+.dPage .content .nobottom{border-bottom: none;}
+.dPage .content .adCom{text-align: center;padding: 20px 0;border: 1px solid #dadada;border-top: none;background-color: #fff;float: left;width: 1197px;}
+/*内容栏_最新更新_热门连载*/
+.dPage .largeBar{border: 1px solid #dadada;background-color: #fff;float: left;width: 1198px;}
+.dPage .largeBar .top{height: 48px;border-bottom: 1px solid #dadada;font-size: 16px;color: #393939;margin: 0 20px;}
+.dPage .largeBar .top .logo{float:left;margin-top: 14px;margin-right: 8px;}
+.dPage .largeBar .top .t{padding-top: 11px;display: inline-block;}
+.dPage .largeBar .top .select{font-size: 12px;padding-top: 13px;}
+.dPage .largeBar .top .select span{background-color: #f2f2f2;border-radius: 9px;padding: 1px 0;display: inline-block;height: 18px;}
+.dPage .largeBar .top .select a{color: #a6a6a6;padding: 1px 8px;}
+.dPage .largeBar .top .select a.active{background-color: #dd2727;color: #fff;border-radius: 9px;}
+.dPage .largeBar .top .more{font-size: 12px;color: #a6a6a6;padding-right: 16px;background-image: url(../images/index_more_logo.png);background-position: right 2px;background-repeat: no-repeat;margin-top: 14px;margin-left: 15px;}
+.dPage .largeBar .top .more:hover{color: #dd2626;}
+.dPage .largeBar .list{padding: 11px 3px;overflow: hidden;height: 412px;}
+.dPage .largeBar .list ul{padding: 0 4px;}
+.dPage .largeBar .list ul li{width: 122px;margin: 10px 13px;float: left;position: relative;}
+.dPage .largeBar .list ul li .cover{width: 120px;height: 160px;border: 1px solid #d9d7d7;}
+.dPage .largeBar .list ul li .title{font-size: 14px;color: #393939;margin-top: 8px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.dPage .largeBar .list ul li .title:hover{color: #dd2626;}
+.dPage .largeBar .list ul li .subtitle{font-size: 12px;color: #fff;position: absolute;top: 136px;left: 1px;width: 110px;padding-left: 10px;height: 25px;line-height: 25px;background-color: #000;opacity: 0.7;-moz-opacity: 0.7;cursor: pointer;}
+.dPage .largeBar .list ul li .log{position: absolute;top: 0;left: 0;}
+.dPage .largeBar .clist{padding: 20px 30px;overflow: hidden;padding-top: 0px;}
+.dPage .largeBar .clist .item{font-size: 12px;padding-left: 25px;background-image: url(../images/index_new_tip.png);background-position: left 0px;background-repeat: no-repeat;width: 259px;float: left;margin-top: 10px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.dPage .largeBar .clist .item .title{color: #393939;}
+.dPage .largeBar .clist .item .title:hover{color: #dd2626;}
+.dPage .largeBar .clist .item .c{color: #a6a6a6;margin-left: 5px;}
+.dPage .largeBar .clist .item .c:hover{color: #dd2626;}
+/*内容栏_最新上架*/
+.dPage .listBar{border: 1px solid #dadada;background-color: #fff;float: left;width: 1198px;}
+.dPage .listBar .top{height: 48px;border-bottom: 1px solid #dadada;font-size: 16px;color: #393939;line-height: 48px;margin: 0 20px;margin-bottom: 3px;}
+.dPage .listBar .top .logo{float:left;margin-top: 15px;margin-right: 8px;}
+.dPage .listBar .top .tip{font-size: 12px;color: #a6a6a6;}
+.dPage .listBar .top .btnGroup{float: right;}
+.dPage .listBar .top .btnGroup a{height: 52px;display: block;float: left;font-size: 14px;margin-right: 12px;}
+.dPage .listBar .top .btnGroup a.active{color: #dd2727;}
+.dPage .listBar .select{font-size: 12px;margin: 10px 20px;display: block;text-align: center;}
+.dPage .listBar .select span{background-color: #f2f2f2;border-radius: 9px;padding: 1px 0;display: inline-block;height: 18px;}
+.dPage .listBar .select a{color: #a6a6a6;padding: 1px 13px;}
+.dPage .listBar .select a:hover{background-color: #dd2727;color: #fff;border-radius: 9px;}
+.dPage .listBar .select a.active{background-color: #dd2727;color: #fff;border-radius: 9px;}
+.dPage .listBar .clist{padding: 20px 30px;overflow: hidden;padding-top: 0px;}
+.dPage .listBar .clist .item{font-size: 12px;padding-left: 25px;background-image: url(../images/index_new_tip.png);background-position: left 0px;background-repeat: no-repeat;width: 259px;float: left;margin-top: 10px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.dPage .listBar .clist .item .title{color: #393939;}
+.dPage .listBar .clist .item .title:hover{color: #dd2626;}
+.dPage .listBar .clist .item .c{color: #a6a6a6;margin-left: 5px;}
+.dPage .listBar .clist .item .c:hover{color: #dd2626;}
+.dPage .listBar .clist .items{font-size: 12px;width: 142px;float: left;margin-top: 12px;}
+.dPage .listBar .clist .items .title{color: #393939;}
+.dPage .listBar .clist .items .title:hover{color: #dd2626;}
+.dPage .content .centerBar .top .btnGroup a.active {
+    font-size: 16px;
+    color: #dd2727;
+    background-image: url(../images/index_btn_active.png);
+    background-position: center 47px;
+    background-repeat: no-repeat;
+}
+.dPage .listBar .top .btnGroup a.active {
+    color: #dd2727;
+    background-image: url(../images/index_s_btn_active.png);
+    background-position: center 47px;
+    background-repeat: no-repeat;
+}
+.dPage .listBar .top .btnGroup a:hover{color:#dd2727;}
+/*信息栏*/
+.dPage .infoBar{overflow: hidden;width: 1200px;margin: 0 auto;}
+.dPage .infoBar .item{width: 184px;background-color: #fff;float: left;margin-left: 20px;padding: 20px;}
+.dPage .infoBar .item:first-child{margin-left: 0;}
+.dPage .infoBar .item .title{font-size: 14px;color: #393939;border-bottom: 1px solid #dadada;padding-bottom: 8px;}
+.dPage .infoBar .item .subtitle{margin-top: 12px;}
+.dPage .infoBar .item .subtitle a{font-size: 12px;color: #a6a6a6;}
+.dPage .infoBar .item .subtitle a:hover{color: #dd2626;}
+/*底部栏*/
+.dPage .footer{background-color: #fff;color: #a6a6a6;font-size: 12px;line-height: 25px;text-align: center;padding: 10px 0;margin-top: 25px;height: inherit;}
