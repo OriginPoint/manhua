@@ -24,8 +24,8 @@ ul,li,p{margin:0; padding:0; list-style:none;}
 .inbt li{margin:0 10px 0 0; letter-spacing:1px; padding:0px 12px; list-style-type:none; text-align:center; font-weight:700; float:left; height:32px; line-height:32px;}
 .inbt a{float:right; line-height:32px; padding-right:8px;}
 
-.in_1{color:#c8000a; background:url(../images/inbg2.jpg) repeat-x; border-left:1px solid #ccc; border-right:1px solid #ccc; cursor:pointer;}
-.in_2{color:#333; cursor:pointer;}
+.in_1{color:#c8000a;}
+.in_2{color:#333;}
 .inbt span{float:right; padding:10px 5px 0 0;}.inbt span em{color:#b90404; font-style:none;}.inbt span a{line-height:12px; float:none;}
 .innr1{padding:10px 10px 0 10px; text-align:center;}
 .innr1 ul{}
@@ -85,7 +85,6 @@ span.moshi1 a{width:20px; height:20px; float:left; overflow:hidden;display: bloc
 .inbt li.in_2{
 	color:#393939;
 	padding:0 10px; 
-	cursor:pointer;
 	height:43px;
 	line-height: 43px;
 	font-size: 14px;
@@ -94,17 +93,21 @@ span.moshi1 a{width:20px; height:20px; float:left; overflow:hidden;display: bloc
 	font-family: 'Microsoft YaHei';}
 .inbt li.in_1{
 	font-size: 14px;
-	color:#dd2727; 
+	color:#393939; 
 	background:#fff; 
 	height:43px;
 	line-height: 43px; 
-	margin:0 0 0 0; 
+	margin:0; 
 	padding:0 10px; 
 	border:none; 
-	cursor:pointer;
-	border-bottom: 2px solid #dd2727;
 	font-weight: normal;
 	font-family: 'Microsoft YaHei';}
+	.inbt li.active{
+		cursor:pointer;
+		border-bottom: 2px solid #dd2727;
+		color:#dd2727;
+		cursor:pointer;
+	}
 .c_re{position:relative;width: 1200px;margin: 0px auto;z-index:3;min-height:700px;_height:700px;overflow:visible;background-color: #f2f2f2;}
 .new_footer{background-color: #fff;color: #a6a6a6;font-size: 12px;line-height: 25px;text-align: center;padding: 10px 0;}
 .dPage .new_top{height: 45px;border-bottom: 1px solid #dadada;font-size: 16px;color: #393939;line-height: 45px;padding-right: 20px;}
