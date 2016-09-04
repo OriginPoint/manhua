@@ -68,7 +68,9 @@ $(function() {
 			}
 		});
 		//5.0 今日完结漫画推荐
-		$(".inkk .inbt li").on("mouseover", function() {
+		$(".inkk .inbt li").hover( function() {
+			$(this).parent().children().removeClass("active");
+			$(this).addClass("active");
 			if ($(this).parents(".inkk").find(".in1s").length > 0) {
 				$(this).parents(".inkk").find(".in1s").hide();
 				$(this).parents(".inkk").find(".in1_" + ($(this).index() + 1)).show();
